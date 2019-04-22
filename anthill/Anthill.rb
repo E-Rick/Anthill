@@ -1,7 +1,7 @@
-#Anthills contains Room objects that spawn an Ant object, consuming 1 piece of food  (5 points)
-#Room creation kills the builder ant who created it (2 points)
-#Ant creation is dependant on room type (2 points)
-#Object Runtime Modification is used to add forager, builder, or warrior functionality to the ants (8 points)
+#Anthills contains Room objects that spawn an Ant object, consuming 1 piece of food
+#Room creation kills the builder ant who created it
+#Ant creation is dependant on room type
+#Object Runtime Modification is used to add forager, builder, or warrior functionality to the ants
 class Anthill
     
 	attr_reader :coordinates, :name
