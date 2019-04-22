@@ -20,6 +20,7 @@ experience is used to give him/her the ability to move 2 cells
 at a time.
 * The Forager dies as soon as it gets inside a cell where a
 Warrior ant of the opposing Anthills is situated.
+
 Warrior Ant:
 * It will try to destroy an anthill when it stumbles in a cell 
 where the anthill is in. If it doesn't destroy it, it can also
@@ -31,8 +32,10 @@ cell.
 * When a warrior kills another it will gain experience. This 
 experience can be used to have greater chances of winning a battle 
 with another warrior
+
 Builder Ant:
 * It just creates the rooms which in turn create the ants
+
 Strategy for Building the AntHills: (Initially)
 * If the AntHill is a ForagerAntHill, creates the following
 	- 2 Builders
@@ -42,6 +45,7 @@ Strategy for Building the AntHills: (Initially)
 	- 2 Builders
 	- 2 Warriors
 	- 1 FOrager
+
 Strategy for Building the AntHills: (All along)
 * If the food is abundant (>= 2)
 	- If ForgerAntHill then
@@ -55,6 +59,7 @@ Strategy for Building the AntHills: (All along)
 	- And always build a warrior along!
 * If the food is less abundant
 	- Build a Forager to bring some more food.
+
 Startegy:
 * Many startegies have been tested and none resulted in a 
 particularly satisfying result, I have thus chosen to go 
