@@ -11,7 +11,7 @@ A naive ant colony simulation where only the best survives
     ├── driver         # main
     └── README.md 
 
-### DESCRIPTION OF DESIGN
+### Description of Design
 Forager Ant:
 * When the Forager ant dies, it drops the food it was carrying
 on the cell it dies in.
