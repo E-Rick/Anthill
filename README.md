@@ -1,5 +1,6 @@
 # Anthill Simulation | Survival of the Fittest
 
+A naive ant colony simulation where only the best survives 
 
 ### Project Structure
     .                              
